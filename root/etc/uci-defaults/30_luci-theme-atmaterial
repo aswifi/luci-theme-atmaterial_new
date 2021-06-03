@@ -1,6 +1,6 @@
 #!/bin/sh
 uci batch <<-EOF
-             set luci.themes.ATMaterial=/luci-static/atmaterial_red
+        set luci.themes.ATMaterial=/luci-static/atmaterial_red
 	set luci.main.mediaurlbase=/luci-static/atmaterial_red
 	commit luci
 EOF
